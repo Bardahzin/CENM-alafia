@@ -78,18 +78,32 @@ body {
 }
 
 .content-subject {
+    
     position: relative;
     background-color: #B5A8D5; /* lavanda */
     padding: 20px;
-    margin: 0.5% 15%;
+    margin: 0.5% 6%;
     border-radius: 5px;
-    height: 100vh;
+    height: auto;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
-    width: calc(100% - 60px);
-    max-width: 390px;
+    width: calc(100% - 40px);
+    max-width: 90%;
     z-index: 10;
-    color: #211C84; /* texto em azul escuro */
+    color: #100e41; /* texto em azul escuro */
     opacity: 0.7;
+}
+.content-subject p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #100e41; /* azul escuro */
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+.content-subject img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 8% 0;
 }
 
 .footer {
