@@ -70,6 +70,21 @@ body {
     width: 100%;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conent-header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+#header-title, #header-subtitle, #header-authors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
 }
 
 #subcontent {
