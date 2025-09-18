@@ -51,18 +51,24 @@ body {
     margin: 0 5px;
     color: #848021;
     transition: background-color 0.3s ease;
+    transition: 0.4s;
+    transform: skew(-20deg);
+
 
 }
 .head-options a {
     text-decoration: none;
-    color: #848021;
+    color: #00ffff;
 }
 .head-options:hover {
     background-color: rgba(255, 255, 255, 0.1);
+    transform: none;
 }
 
 #cabecalho {
     background-color: #211C84; /* azul escuro */
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
     color: #ffffff;
     padding: 10px;
     z-index: 100;
