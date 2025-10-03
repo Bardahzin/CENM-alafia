@@ -18,8 +18,8 @@ window.addEventListener("resize", resize);
 resize();
 
 const particles = [];
-const PARTICLE_COUNT = 400;
-const MAX_DIST = 120;
+const PARTICLE_COUNT = 200;
+const MAX_DIST = 220;
 
 for (let i = 0; i < PARTICLE_COUNT; i++) {
   particles.push({
