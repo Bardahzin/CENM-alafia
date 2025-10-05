@@ -86,7 +86,7 @@ body {
     text-align: center;
     padding: 20px;
 }
-#header-title, #header-subtitle, #header-authors {
+#header-title, #header-subtitle, .header-authors {
     display: flex;
     justify-content: center;
     align-items: center;
