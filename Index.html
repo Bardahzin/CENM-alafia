@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colégio Nelson Mandela - Informações</title>
+  <link rel="stylesheet" href="Style.css">>
+</head>
+<body>
+  <div class="sidebar" id="sidebar">
+    <h2>Menu</h2>
+    <nav>
+      <a href="#origem">Origens</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#renomeacao">Renomeação</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#visitas">Visitas</a>
+      <a href="#homenagens">Homenagens</a>
+      <a href="#contexto">Contexto Local</a>
+    </nav>
+  </div>
+  <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+  <main class="content">
+    <section id="origem">
+      <h3>Origens e Formação</h3>
+      <p>Fundado em 1967, o colégio começou como ginásio comunitário organizado por moradores de Periperi. O nome original homenageava o ditador Castelo Branco.</p>
+    </section>
+    <section id="estrutura">
+      <h3>Estrutura e Expansão</h3>
+      <p>Recebeu melhorias em pavilhões e ginásios ao longo dos anos, mantendo hoje uma estrutura com quadras, salas e equipamentos modernos.</p>
+    </section>
+    <section id="renomeacao">
+      <h3>Renomeação</h3>
+      <p>Em 2014, após votação popular, o colégio passou a se chamar Nelson Mandela, substituindo o nome do ditador militar por uma figura símbolo da paz e democracia.</p>
+    </section>
+    <section id="projetos">
+      <h3>Projetos e Parcerias</h3>
+      <p>Conta com banda marcial, programas de iniciação à docência, parcerias com a UFBA e UNEB, e foco em cultura afro-brasileira e antirracismo.</p>
+    </section>
+    <section id="visitas">
+      <h3>Visitas Importantes</h3>
+      <p>Entre as visitas mais notáveis, estão o governador Rui Costa e o então secretário Jerônimo Rodrigues, além de intercâmbio com escolas antirracistas.</p>
+    </section>
+    <section id="homenagens">
+      <h3>Figuras Homenageadas</h3>
+      <p>Homenageia Nelson Mandela, líder contra o apartheid. A mudança de nome reflete um compromisso com valores democráticos e inclusão.</p>
+    </section>
+    <section id="contexto">
+      <h3>Contexto Local</h3>
+      <p>Localizado em Periperi, Salvador, o colégio representa a luta por investimento na educação da periferia e fortalecimento da identidade local.</p>
+    </section>
+  </main>
+  <script src="Script.js"></script>
+  <script rel>
+    function toggleSidebar() {
+      document.getElementById("sidebar").classList.toggle("closed");
+    }
+  </script>
+</body>
+</html>
